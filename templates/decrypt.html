@@ -1,0 +1,50 @@
+<!-- templates/decrypt.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decryption Result</title>
+    <link rel="icon" href="/path/to/favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        main {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        p {
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Decryption Result</h1>
+    </header>
+    <main>
+        <p>Decrypted Data: {{ plaintext }}</p>
+
+    </main>
+</body>
+</html>
